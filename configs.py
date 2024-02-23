@@ -7,7 +7,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID", "28421635"))
 	API_HASH = os.environ.get("a4856de5fec0b9b3601ff06425f3f58e")
 	BOT_TOKEN = os.environ.get("6947074831:AAHfx5XvS6p0BXjamh3mdIKtjaC6MMgM4x0")
-	BOT_USERNAME = os.environ.get("@AnimePediaFile_Bot")
+	BOT_USERNAME = os.environ.get("AnimePediaFile_Bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001970343871"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1534632634"))
 	DATABASE_URL = os.environ.get("mongodb+srv://Cluster01: Cluster01@cluster0.byawv04.mongodb.net/?retryWrites=true&w=majority")
@@ -27,8 +27,6 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📝 **Language:** [Python3](https://www.python.org)
 
 📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
-
-📡 **Hosted on:** [Heroku](https://heroku.com)
 
 🧑🏻‍💻 **Developer:** @RohitxPedia
 
